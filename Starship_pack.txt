@@ -1,0 +1,36 @@
+[
+  {
+    "id": "starship_tank",
+    "name": "Starship RVS Brandstoftank",
+    "description": "De glanzende roestvrijstalen tank voor de Starship upper stage.",
+    "mass": 5.0,
+    "size": { "width": 4.0, "height": 12.0 },
+    "components": [
+      {
+        "type": "ResourceModule",
+        "resourceType": "LiquidFuel",
+        "capacity": 1500.0,
+        "amount": 1500.0
+      },
+      {
+        "type": "TextureModule",
+        "textureName": "StainlessSteel"
+      }
+    ]
+  },
+  {
+    "id": "raptor_engine",
+    "name": "Raptor 3 Raketmotor",
+    "description": " SpaceX vloeibare methaan/zuurstof motor met gigantische stuwkracht.",
+    "mass": 1.6,
+    "size": { "width": 1.5, "height": 2.0 },
+    "components": [
+      {
+        "type": "EngineModule",
+        "thrust": 280.0,
+        "isp": 350.0,
+        "fuelConsumption": 0.8
+      }
+    ]
+  }
+]
